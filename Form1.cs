@@ -17,8 +17,6 @@ namespace SimpleMsAccess
         }
 
 
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
           
@@ -27,13 +25,8 @@ namespace SimpleMsAccess
 
             bs.DataSource = dt;
             DataGridView1.DataSource = bs;
-            ActiveControl = textBox1;
+           
         }
-
-
-
-
-		
 
 
 
@@ -41,6 +34,11 @@ namespace SimpleMsAccess
         {
             Close();
         }
+
+
+
+
+
 
 		private void button1_Click(object sender, EventArgs e)
 		{
@@ -51,6 +49,8 @@ namespace SimpleMsAccess
 
 			}
 		}
+
+
 
 		private void button2_Click(object sender, EventArgs e)
 		{
@@ -68,12 +68,17 @@ namespace SimpleMsAccess
 			
 		}
 
+
+
+
 		private void DataGridView1_CellMouseEnter(object sender, DataGridViewCellEventArgs e, MouseEventArgs me)
 		{
-			if ()
-			{
+			
+		}
 
-			}
+		private void panel1_Paint(object sender, PaintEventArgs e)
+		{
+
 		}
 	}
 }
